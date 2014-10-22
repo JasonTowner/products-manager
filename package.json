@@ -1,0 +1,30 @@
+{
+  "name": "products-manager",
+  "version": "0.0.0",
+  "description": "Example application to manage a variety of products using node.js, hapi.js, angular.js, and mongodb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/JasonTowner/products-manager.git"
+  },
+  "author": "Jason Towner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JasonTowner/products-manager/issues"
+  },
+  "homepage": "https://github.com/JasonTowner/products-manager",
+  "dependencies": {
+    "bluebird": "^2.3.6",
+    "boom": "^2.5.1",
+    "good": "^2.4.0",
+    "hapi": "^7.0.0",
+    "hapi-mongoose-db-connector": "^1.0.5",
+    "joi": "^4.7.0",
+    "lout": "^5.1.1",
+    "mongoose": "^3.8.17",
+    "require-directory": "^2.0.0"
+  }
+}
