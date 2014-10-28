@@ -16,7 +16,7 @@
       $timeout(function(){
         var index = $rootScope.alerts.indexOf(alert);
         $rootScope.alerts.splice(index, 1);
-      }, 5000);
+      }, 3000);
     };
 
     $rootScope.closeAlert = alertService.closeAlert = function (index) {

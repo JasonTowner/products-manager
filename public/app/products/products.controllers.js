@@ -31,7 +31,7 @@
           if(index >= 0) {
             $scope.products.splice(index, 1)
           }
-          var message = 'Product Deleted';
+          var message = 'Deleted';
           AlertService.addAlert('success', message);
           console.log(message);
         }, function(err){
@@ -58,7 +58,7 @@
     function createProduct(product) {
       $scope.product.data = product;
       $scope.product.$save(function () {
-        var message = 'Product Created';
+        var message = 'Saved';
         AlertService.addAlert('success', message);
         console.log(message);
         $state.go('products');
@@ -78,7 +78,7 @@
 
     function updateProduct() {
       $scope.product.$update(function () {
-        var message = 'Product Updated';
+        var message = 'Saved';
         AlertService.addAlert('success', message);
         console.log(message);
         $state.go('products');

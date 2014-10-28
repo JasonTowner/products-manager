@@ -1,6 +1,6 @@
 {
   "name": "products-manager",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Example application to manage a variety of products using node.js, hapi.js, angular.js, and mongodb",
   "main": "index.js",
   "scripts": {
