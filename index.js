@@ -3,8 +3,8 @@
 var Hapi = require('hapi'),
   Router = require('./init/router');
 
-var port = 3000;
-var server = new Hapi.Server('localhost', port);
+var port = parseInt(process.env.PORT || 3000);
+var server = new Hapi.Server('0.0.0.0', port);
 
 var mongoUri = process.env.MONGO_URI || 'mongodb://localhost:27017/products-management';
 
