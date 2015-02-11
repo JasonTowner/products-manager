@@ -2,7 +2,7 @@
 
 var chai = require('chai'),
   Mongoose = require('mongoose'),
-  ProductService = require('../lib/services/product-service');
+  ProductService = require('../../lib/services/product-service');
 
 chai.should();
 
